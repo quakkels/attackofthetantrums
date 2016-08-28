@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Attack of the Tantrums - bq Game</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+  <script type="text/javascript" src="scripts/powerup.js"></script>
+  <script type="text/javascript" src="scripts/state.js"></script>
+  <script type="text/javascript" src="scripts/menu.js"></script>
+  <script type="text/javascript" src="scripts/hud.js"></script>
+  <script type="text/javascript" src="scripts/projectile.js"></script>
+  <script type="text/javascript" src="scripts/map.js"></script>
+  <script type="text/javascript" src="scripts/player.js"></script>
+  <script type="text/javascript" src="scripts/enemy.js"></script>
+	<script type="text/javascript" src="scripts/game.js"></script>
+</head>
+
+<body>
+  <canvas id="c" width="544" height="544">
+    Your browser doesn't appear to support the HTML5 <code>&lt;canvas&gt;</code> element.
+    <img src="screenshot.gif" title="Attack og the Tantrums" />
+  </canvas>
+  <div id="fpsDisplay"></div>
+  <script type="text/javascript">
+  	Game.init("c", "fpsDisplay");
+  </script>
+</body>
+</html>
